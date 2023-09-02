@@ -22,8 +22,14 @@ export default function Header() {
             src={HeroImage}
             className="w-[45rem] h-[27rem] mx-auto mt-[8rem]"
           />
-          <img src={Pattern1} className="absolute top-28 left-[-8rem]" />
-          <img src={Pattern2} className="absolute top-60 right-[1rem]" />
+          <img
+            src={Pattern1}
+            className="hidden md:block absolute top-28 left-[-8rem]"
+          />
+          <img
+            src={Pattern2}
+            className="hidden md:block absolute top-60 right-[1rem]"
+          />
         </div>
       </div>
     </>
